@@ -35,18 +35,18 @@ header {
     top: 0em;
 }
 
+@media (max-width:970px) {
+    header {
+        display: none;
+    }
+}
+
 .nav-header {
     height: 100%;
     padding-right: 9.22em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-@media (max-width:970px) {
-    .nav-header {
-        display: none;
-    }
 }
 
 .nav-menu {
@@ -56,10 +56,14 @@ header {
     list-style: none;
 }
 
+.item-menu {
+    font-size: 1.37em;
+}
+
 .item-nav {
     font-family: var(--font2);
     color: var(--color5);
-    font-size: 1.37em;
+    text-decoration: none;
 }
 
 /* main */
