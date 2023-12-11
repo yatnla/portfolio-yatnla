@@ -1,0 +1,61 @@
+/* selector universal */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* variables */
+
+:root {
+
+    --font1: 'Inter', sans-serif;
+    --font2: 'Playfair Display', serif;
+
+    --color1: rgb(22, 23, 30);
+    --color2: rgb(32, 33, 38);
+    --color3: rgb(153, 155, 166);
+    --color4: rgb(180, 181, 191);
+    --color5: rgb(255, 255, 255);
+}
+
+/* body */
+
+body {
+    height: 100vh;
+}
+
+/* header / nav */
+
+header {
+    background-color: var(--color1);
+    position: sticky;
+    top: 0em;
+}
+
+.nav-header {
+    padding-right: 9.22em;
+    height: 5.24em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5.22em;
+    list-style: none;
+}
+
+.item-nav {
+    font-family: var(--font2);
+    color: var(--color5);
+    font-size: 1.43em;
+}
+/* main */
+
+main {
+    height: 100%;
+}
