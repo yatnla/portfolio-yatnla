@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.07em;
 }
 
 /* variables */
@@ -77,7 +78,7 @@ main {
 .about-section {
     display: flex;
     justify-content: center;
-    padding: 61px 100px;
+    padding: 50px 100px;
 }
 
 
@@ -85,6 +86,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    column-gap: 8.45rem;
 }
 
 .container-about-info {
@@ -95,24 +97,47 @@ main {
 .hola-about {
     font-family: var(--font2);
     color: var(--color2);
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: 500;
+    margin-top: 7.34rem;
 }
 
 .nombre-about {
     font-family: var(--font2);
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 4rem;
+    font-weight: 1000;
+    margin-top: 1rem;
+}
+
+.nombre-about::first-letter {
+    color: var(--color3);
 }
 
 .descripción-about {
     font-family: var(--font1);
-    font-size: 1.01rem;
+    font-size: 1.4rem;
     font-weight: 200;
+    margin-top: 1.66rem;
 }
 
 .container-img-about {
-    max-width: 20%;
+    max-width: 32rem;
+    min-width: 32rem;
+    width: 100%;
+}
+
+.botón-about {
+    margin-top: 2.1rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--color4);
+    font-size: 1.31rem;
+    color: var(--color5);
+    font-family: var(--font1);
+    font-weight: 300;
+    border-radius: 100px;
+    width: max-content;
+    padding: 1rem;
 }
 
 .about-me-img {
