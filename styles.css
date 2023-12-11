@@ -36,10 +36,16 @@ header {
 
 .nav-header {
     padding-right: 9.22em;
-    height: 5.24em;
+    height: 4.93em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+@media (max-width:970px) {
+    .nav-header {
+        display: none;
+    }
 }
 
 .nav-menu {
@@ -52,8 +58,9 @@ header {
 .item-nav {
     font-family: var(--font2);
     color: var(--color5);
-    font-size: 1.43em;
+    font-size: 1.37em;
 }
+
 /* main */
 
 main {
