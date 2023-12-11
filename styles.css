@@ -71,3 +71,50 @@ header {
 main {
     height: 100%;
 }
+
+/* about me - sección */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 61px 100px;
+}
+
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-about-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.hola-about {
+    font-family: var(--font2);
+    color: var(--color2);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.nombre-about {
+    font-family: var(--font2);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.descripción-about {
+    font-family: var(--font1);
+    font-size: 1.01rem;
+    font-weight: 200;
+}
+
+.container-img-about {
+    max-width: 20%;
+}
+
+.about-me-img {
+    max-width: 100%;
+}
