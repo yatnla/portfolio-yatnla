@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b67621f62e.js" crossorigin="anonymous"></script>
 
     <title> Portfolio </title>
@@ -41,8 +42,8 @@
             </div>
         </section>
         <section class="conocimientos-section" id="conocimientos">
-            <div class="line"> </div>
             <div class="container-conocimientos">
+                <div class="line"> </div>
                 <h2 class="title-conocimientos"> mis conocimientos </h2>
                 <p class="descripción-conocimientos"> ummMmmmm. idk qué poner acá parte dos. </p>
                 <div class="container-cards-conocimientos">
@@ -109,7 +110,7 @@
                     </div>
                     <div class="card-proyect">
                         <img src="/img/proyects/todo-absurd.png" alt="" class="img-card-proyects">
-                        <p class="title-card-proyects"> Todo app </p>
+                        <p class="title-card-proyects"> Todo App </p>
                     </div>
                     <div class="card-proyect">
                         <img src="/img/proyects/buscador-absurd.png" alt="" class="img-card-proyects">
@@ -118,8 +119,72 @@
                 </div>
             </div>
         </section>
+        <section class="contact-section" id="contacto">
+            <div class="line-contact"> </div>
+            <div class="container-contact">
+                <div class="column-social-media">
+                    <h2 class="contact-title"> contactame </h2>
+                    <p class="descripción-contacto"> おい！私の仕事に興味があれば、私に連絡してください。<span class="tooltip"> traducción. ey! si te interesó mi trabajo, podés comunicarte conmigo. </span> </p>
+                    <ul class="container-links">
+                        <div class="container-link">
+                            <li>
+                                <a href="https://github.com/yatnla" class="contact-link" target="_blank">
+                                    <i class="fa-brands fa-github-alt icon-contact-link" style="color: #000000;"></i>yatnla
+                                </a>
+                            </li>
+                        </div>
+                        <div class="container-link">
+                            <li> 
+                                <a href="https://www.linkedin.com/in/nataly-cotrina-r%C3%ADos/" class="contact-link" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in icon-contact-link" style="color: #000000;"></i>Nataly Cotrina Ríos
+                                </a>
+                            </li>
+                        </div>
+                        <div class="container-link">
+                            <li> 
+                                <a href="mailto:cotrinataly@gmail.com" class="contact-link" target="_blank">
+                                    <i class="fa-solid fa-envelope icon-contact-link" style="color: #000000;"></i>cotrinataly@gmail.com
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="column-form">
+                    <h2 class="contact-title"> escribime </h2>
+                    <form action="https://formsubmit.co/cotrinataly@gmail.com" method="post"></form>
+                    <div class="fsname-container">
+                        <div class="form-input">
+                            <label for="fname"> nombre *</label>
+                            <input type="text" name="fname" id="fname" placeholder="nombre">
+                        </div>
+                        <div class="form-input">
+                            <label for="sname"> apellido *</label>
+                            <input type="text" name="sname" id="sname" placeholder="apellido">
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="mail"> e-mail *</label>
+                        <input type="email" name="mail" id="mail" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-input">
+                        <label for="message"> mensaje *</label>
+                        <textarea name="message" id="message" placeholder="escriba un mensaje aquí"></textarea>
+                    </div>
+                    <input type="submit" value="enviar">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
+        <div class="nav-fotter">
+            <ul>
+                <li> ¡hola! </li>
+                <li> conocimientos </li>
+                <li> proyectos </li>
+                <li> contacto </li>
+            </ul>
+
+        </div>
         <!-- <p> © illustration(s) from <a href="https://absurd.design/">absurd.design</a> </p> -->
     </footer>
 </body>
