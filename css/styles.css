@@ -1,6 +1,3 @@
-@import url(mobile.css) screen and (max-width:500px);
-@import url(/css/tablet.css) screen and (max-width:1024px);
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -499,3 +496,86 @@ footer a {
     font-size: 1rem;
 }
 
+@media (max-width: 1024px) {
+    header {
+        display: none;
+    }
+    
+    .container-about {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .container-about-info {
+        align-items: center;
+    }
+
+    .botón-about {
+        font-weight: 200;
+    }
+
+    .container-cards-conocimientos {
+        justify-content: space-evenly;
+        row-gap: 2rem;
+    }
+
+    .container-contact {
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        display: none;
+    }
+    
+    .about-section {
+        display: flex;
+        justify-content: center;
+        padding-inline: 3.73rem;
+    }
+    
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.33rem;
+        width: 100%;
+    }
+    
+    .hola-about {
+        font-size: 2.1rem;
+    }
+    
+    .nombre-about {
+        font-size: 3.3rem;
+    }
+    
+    .descripción-about {
+        font-size: 1rem;
+    }
+    
+    .botón-about {
+        margin-top: 1.7rem;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    
+    .container-img-about {
+        max-width: 32rem;
+        min-width: 32rem;
+        width: 100%;
+        display: contents;
+    }
+    
+    .about-me-img {
+        width: 100%;
+        height: 100%;
+    }
+}
