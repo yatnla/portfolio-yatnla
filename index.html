@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
-    <link rel="shortcut icon" type="image/png" href="/img/icon/portfolio-icon.ico">
+    <link rel="shortcut icon" type="image/png" href="/assets/icon/portfolio-icon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b67621f62e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title> Portfolio </title>
 
@@ -28,7 +29,7 @@
         </nav>
     </header>
     <main>
-        <section class="about-section" id="holis">
+        <section class="about-section animate__animated animate__fadeInLeft animate__slow" id="holis">
             <div class="container-about">
                 <div class="container-about-info">
                     <h2 class="hola-about"> hola, soy </h2>
@@ -37,7 +38,7 @@
                     <a href="#proyectos" class="botón-about"> ¡lo que hago! </a>
                 </div>
                 <div class="container-img-about">
-                    <img src="/img/about-me/hola-absurd.svg" alt="imagen-sobre-mí-moño-absurdo" class="about-me-img">
+                    <img src="/assets/about-me/hola-absurd.svg" alt="imagen-sobre-mí-moño-absurdo" class="about-me-img">
                 </div>
             </div>
         </section>
@@ -76,7 +77,7 @@
         </section>
         <section class="quote-section">
             <div class="container-quote">
-                <img src="/img/quote/quotation-marks-hand-drawn.png" alt="quote-absurd-light" class="quote-absurd">
+                <img src="/assets/quote/quotation-marks-hand-drawn.png" alt="quote-absurd-light" class="quote-absurd">
                 <q class="quote" cite="https://youtu.be/GvhqJsy9miE?si=Yrl48VzjVMDjbONL">Well gues what Mimi? We did.</q>
                 <p class="quote-author"> Raven.
                 </p>
@@ -89,31 +90,31 @@
                 <p class="descripción-proyects"> uuumMMmmmmm. </p>
                 <div class="container-cards-proyects">
                     <div class="card-proyect">
-                        <img src="/img/about-me/hola-absurd.svg" alt="hola-absurd" class="img-card-proyects hola">
+                        <img src="/assets/about-me/hola-absurd.svg" alt="hola-absurd" class="img-card-proyects hola">
                         <p class="title-card-proyects"> Portfolio </p>
                     </div>
                     <div class="card-proyect">
-                        <img src="/img/proyects/memes-absurd.png" alt="" class="img-card-proyects">
+                        <img src="/assets/proyects/memes-absurd.png" alt="" class="img-card-proyects">
                         <p class="title-card-proyects"> Generador de memes </p>
                     </div>
                     <div class="card-proyect">
-                        <img src="/img/proyects/match-absurd.png" alt="" class="img-card-proyects">
+                        <img src="/assets/proyects/match-absurd.png" alt="" class="img-card-proyects">
                         <p class="title-card-proyects"> Match 3 </p>
                     </div>
                     <div class="card-proyect">
-                        <img src="/img/proyects/gastos-absurd.png" alt="" class="img-card-proyects">
+                        <img src="/assets/proyects/gastos-absurd.png" alt="" class="img-card-proyects">
                         <p class="title-card-proyects"> Controlador de gastos </p>
                     </div>
                     <div class="card-proyect">
-                        <img src="/img/proyects/reuniones-absurd.png" alt="" class="img-card-proyects">
+                        <img src="/assets/proyects/reuniones-absurd.png" alt="" class="img-card-proyects">
                         <p class="title-card-proyects"> Administrador de reuniones </p>
                     </div>
                     <div class="card-proyect">
-                        <img src="/img/proyects/todo-absurd.png" alt="" class="img-card-proyects">
+                        <img src="/assets/proyects/todo-absurd.png" alt="" class="img-card-proyects">
                         <p class="title-card-proyects"> Todo App </p>
                     </div>
                     <div class="card-proyect">
-                        <img src="/img/proyects/buscador-absurd.png" alt="" class="img-card-proyects">
+                        <img src="/assets/proyects/buscador-absurd.png" alt="" class="img-card-proyects">
                         <p class="title-card-proyects"> Buscador de películas </p>
                     </div>
                 </div>
@@ -166,25 +167,46 @@
                         <label for="mail"> e-mail *</label>
                         <input type="email" name="mail" id="mail" placeholder="example@gmail.com">
                     </div>
-                    <div class="form-input">
+                    <div class="form-input-message">
                         <label for="message"> mensaje *</label>
-                        <textarea name="message" id="message" placeholder="escriba un mensaje aquí"></textarea>
+                        <textarea name="message" id="message" placeholder="escriba un mensaje aquí" class="form-input-message"></textarea>
                     </div>
-                    <input type="submit" value="enviar">
+                    <div class="submit-container">
+                        <input type="submit" value="enviar">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="nav-fotter">
-            <ul>
-                <li> ¡hola! </li>
-                <li> conocimientos </li>
-                <li> proyectos </li>
-                <li> contacto </li>
+        <div>
+            <ul class="nav-footer">
+                <li> <a href="#holis"> ¡hola! </a> </li>
+                <li> <a href="#conocimientos"> conocimientos </a> </li>
+                <li> <a href="#proyectos"> proyectos </a> </li>
+                <li> <a href="#contacto"> contacto </a> </li>
             </ul>
-
         </div>
+        <div>
+            <ul class="link-footer">
+                <li>
+                    <a href="https://github.com/yatnla" target="_blank">
+                        <i class="fa-brands fa-github-alt" style="color: #000000;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/nataly-cotrina-r%C3%ADos/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in" style="color: #000000;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:cotrinataly@gmail.com">
+                        <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="yatnla-footer"> yatnla <a href="https://www.metmuseum.org/art/collection/search/37297" target="_blank"> <i class="fa-solid fa-frog fa-bounce" style="--fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1;"></i></a> / '24 </p>
         <!-- <p> © illustration(s) from <a href="https://absurd.design/">absurd.design</a> </p> -->
     </footer>
 </body>
