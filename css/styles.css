@@ -444,7 +444,7 @@ input, textarea {
 }
 
 .submit-container {
-    margin-top: 2.3rem;
+    /* margin-top: 2.3rem; */
 }
 
 input[type=submit] {
@@ -457,6 +457,7 @@ input[type=submit] {
     width: 6.25em;
     display: block;
     cursor: pointer;
+    margin-top: 2.3rem;
 }
 
 input[type=submit]:hover {

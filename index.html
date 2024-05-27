@@ -159,28 +159,31 @@
                 </div>
                 <div class="column-form">
                     <h2 class="contact-title"> escribime </h2>
-                    <form action="https://formsubmit.co/cotrinataly@gmail.com" method="post"></form>
-                    <div class="fsname-container">
-                        <div class="form-input">
-                            <label for="fname"> nombre *</label>
-                            <input type="text" name="fname" id="fname" placeholder="nombre">
+                    <form 
+                    action="https://formsubmit.co/4c79dd7a593ba01c0a59ea4a37df709a"
+                    method="POST">
+                        <div class="fsname-container">
+                            <div class="form-input">
+                                <label for="fname"> nombre *</label>
+                                <input type="text" name="fname" id="fname" placeholder="nombre" required>
+                            </div>
+                            <div class="form-input">
+                                <label for="sname"> apellido *</label>
+                                <input type="text" name="sname" id="sname" placeholder="apellido" required>
+                            </div>
                         </div>
                         <div class="form-input">
-                            <label for="sname"> apellido *</label>
-                            <input type="text" name="sname" id="sname" placeholder="apellido">
+                            <label for="mail"> e-mail *</label>
+                            <input type="email" name="mail" id="mail" placeholder="example@gmail.com" required>
                         </div>
-                    </div>
-                    <div class="form-input">
-                        <label for="mail"> e-mail *</label>
-                        <input type="email" name="mail" id="mail" placeholder="example@gmail.com">
-                    </div>
-                    <div class="form-input-message">
-                        <label for="message"> mensaje *</label>
-                        <textarea name="message" id="message" placeholder="escriba un mensaje aquí" class="form-input-message"></textarea>
-                    </div>
-                    <div class="submit-container">
-                        <input type="submit" value="enviar">
-                    </div>
+                        <div>
+                            <label for="message"> mensaje *</label>
+                            <textarea name="message" id="message" placeholder="escriba un mensaje aquí" class="form-input-message"  required></textarea>
+                        </div>
+                        <div class="submit-container">
+                            <input type="submit" value="enviar">
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
