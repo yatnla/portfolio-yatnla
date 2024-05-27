@@ -5,7 +5,7 @@ welcome 𓆝 𓆟 𓆞 𓆝 𓆟
 
 this is the first project of the 23rd commission of the ada ITW front-end developer course.
 
-[Link](https://yatnla.netlify.app/)
+[site](https://yatnla.netlify.app/)
 
 
 ## includes:
